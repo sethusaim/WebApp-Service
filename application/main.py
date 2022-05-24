@@ -8,9 +8,6 @@ from utils.read_params import read_params
 
 app = FastAPI()
 
-
-sdfsdf
-
 config = read_params()
 
 templates = Jinja2Templates(config["templates"]["dir"])
