@@ -1,6 +1,12 @@
 #!bin/bash
 
-if [[ -z $(git diff application) ]];then
+# git fetch
+
+# git reset origin/main --hard
+
+git fetch
+
+if [[ -z $(git diff main origin/main) ]];then
     echo "No changes are detected"
 else
     echo "New changes are detected"
