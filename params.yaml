@@ -3,7 +3,6 @@ app:
   port: 8080
 
 templates:
-  dir: templates
   index: index.html
 
 pipeline:
