@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-from yaml import safe_load, dump
-=======
 from yaml import safe_load
->>>>>>> dfd8af5aaabc16eb039d384b2aae06b5bcc541db
 
 
 def read_params(config_path="params.yaml"):
