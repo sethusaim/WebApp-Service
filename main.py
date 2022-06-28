@@ -29,6 +29,7 @@ def index(request: Request):
         config["templates"]["index"], {"request": request}
     )
 
+
 @app.get("/train")
 def trainRouteClient():
     try:

@@ -1,4 +1,4 @@
-from yaml import safe_load,dump
+from yaml import safe_load, dump
 
 
 def read_params(config_path="params.yaml"):
